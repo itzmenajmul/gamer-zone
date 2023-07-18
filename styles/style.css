@@ -1,0 +1,84 @@
+/* added font Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font work sans */
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+/* nav design starts here */
+.nav-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    /* min-width: ; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-content img {
+    width: 60px;
+    height: 40px;
+}
+
+.nav-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.nav-title-g {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+
+}
+
+.nav-items li {
+    list-style: none;
+    color: #3C354F;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.nav-icons {
+    border: 2px solid gray;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 0;
+}
+
+.nav-icons img {
+    width: 8%;
+}
+
+/* nav design ends here */
+
+/*  */
