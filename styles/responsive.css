@@ -30,6 +30,15 @@
         text-align: center;
     }
 
+    .online-games-cards{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: auto;
+        height: auto;
+    }
+
 
     
 }
@@ -41,7 +50,8 @@
     .nav-container,
     .nav-items,
     .banner-container,
-    .gamer-container{
+    .gamer-container,
+    .online-games-cards{
         flex-direction: column;
     }
 
@@ -77,6 +87,19 @@
     .gamer-description{
         width: auto;
 
+    }
+
+    .online-games-container h2{
+        font-size:1.5rem;
+    }
+
+    .online-games-container p{
+        font-size:0.75rem;
+    }
+
+    .card{
+        width: auto;
+        height: auto;
     }
 }
 
