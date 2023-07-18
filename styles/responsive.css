@@ -2,7 +2,8 @@
 @media screen and (max-width: 800px){
     .nav-container,
     .banner-container,
-    .gamer-container{
+    .gamer-container,
+    .play-instantly-container{
         flex-direction: column;
     }
 
@@ -51,7 +52,8 @@
     .nav-items,
     .banner-container,
     .gamer-container,
-    .online-games-cards{
+    .online-games-cards,
+    .play-instantly-container{
         flex-direction: column;
     }
 
@@ -100,6 +102,26 @@
     .card{
         width: auto;
         height: auto;
+    }
+
+    .play-instantly-content {
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .play-instantly-content h2{
+        font-size: 2rem;
+    }
+
+    .play-ins-img-one {
+        width: 80%;
+        margin-left: 70px;
+    }
+
+    .play-ins-img-two {
+        bottom: -30px;
+        left: 10px;
     }
 }
 

@@ -11,9 +11,6 @@
 }
 
 
-
-
-
 /* nav design starts here */
 .nav-container {
     padding: 20px;
@@ -182,8 +179,6 @@
     /* align-items: center; */
 }
 
-.gamer-img {}
-
 .gamer-img img {
     width: 90%;
     /* height: 50%; */
@@ -258,7 +253,7 @@
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 10px;
-    
+
 }
 
 .funny-videos {
@@ -303,3 +298,63 @@
 }
 
 /* online games design ends here */
+
+/* play instantly design starts here */
+.play-instantly-container {
+    border: 2px solid red;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.play-instantly-content {
+    border: 2px solid blue;
+    text-align: right;
+    flex: 40%;
+    margin-right: 50px;
+}
+
+.play-instantly-content h2 {
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.play-instantly {
+    /* text-align: right; */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-content p {
+    color: #534C64;
+    /* text-align: right; */
+    font-size: 0.85rem;
+}
+
+    .play-instantly-img {
+        border: 2px solid green;
+        flex: 50%;
+        position: relative;
+    }
+
+    .play-ins-img-one{
+        width: 80%;
+    }
+
+    .play-ins-img-two{
+        width: 40%;
+        position:absolute;
+        bottom: -40px;
+        left: -90px;
+    }
+
+    /* play instantly design ends here */
+
+    /*  */
