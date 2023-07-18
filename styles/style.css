@@ -81,4 +81,90 @@
 
 /* nav design ends here */
 
-/*  */
+/* banner design starts here */
+.banner {
+    background-color: #FDF6FC;
+}
+
+.banner-container {
+    max-width: 1200px;
+    height: 80vh;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-content {
+    flex: 50%;
+}
+
+.banner-content h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    color: #534C64;
+    font-size: 1.10rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.banner-content img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.banner-btn-one {
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.banner-btn-two {
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.banner-img {
+    flex: 50%;
+}
+
+.banner-img img {
+    width: 80%;
+}
+
+
+/* banner design ends here */
