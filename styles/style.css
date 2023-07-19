@@ -589,6 +589,7 @@ footer {
     gap: 50px;
     justify-content: center;
     margin: 50px;
+    cursor: pointer;
 }
 
 .footer-icons img {
