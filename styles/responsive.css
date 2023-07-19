@@ -199,6 +199,20 @@
         margin-bottom: 50px;
     }
 
+    .category{
+        margin: 0;
+        padding: 0;
+        margin-right: 8px;
+    }
+
+    .category img{
+        height: 70%;
+    }
+
+    .category h4{
+        font-size: 0.65rem;
+    }
+
     .footer-container {
         padding: 20px;
         height: auto;
