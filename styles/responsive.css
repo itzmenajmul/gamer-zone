@@ -1,109 +1,149 @@
 /* medium device */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
+
     .nav-container,
     .banner-container,
     .gamer-container,
     .play-instantly-container,
-    .careers-container{
+    .careers-container {
         flex-direction: column;
     }
 
-    .nav-content{
+    .nav-content {
 
         justify-content: center;
         margin-top: 50px;
     }
-    
-    .nav-items{
+
+    .nav-items {
         justify-content: center;
         margin: 50px auto 0;
     }
 
-    .banner-container{
+    .banner-container {
         height: auto;
         flex-flow: column-reverse;
         align-items: normal;
         text-align: center;
     }
 
-    .gamer-content{
+    .banner-content {
+        margin-top: 50px;
+    }
+
+    .gamer-content {
         margin-top: 50px;
         justify-content: center;
         text-align: center;
     }
 
-    .online-games-cards{
+    .online-games-cards {
         flex-wrap: wrap;
     }
 
-    .card{
+    .card {
         width: auto;
         height: auto;
     }
 
+    .careers-container {
+        height: auto;
+    }
 
-    
+    .careers-content {
+        margin-bottom: 50px;
+    }
+
+    .footer-container {
+        padding: 30px;
+        height: auto;
+
+    }
+
+    .footer-title {
+        margin: auto;
+        padding: 20px;
+    }
+
+    .footer-items {
+        margin-top: 20px;
+    }
+
+    .footer-items,
+    .footer-icons,
+    .terms-condition {
+        flex-wrap: wrap;
+    }
+
+
+
+
+
 }
 
 
 
 /* small device */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
+
     .nav-container,
     .nav-items,
     .banner-container,
     .gamer-container,
     .online-games-cards,
     .play-instantly-container,
-    .careers-container{
+    .careers-container {
         flex-direction: column;
     }
 
-    .nav-content{
+    .nav-content {
         margin: 0 auto;
     }
 
-    .nav-items{
+    .nav-items {
         margin-top: 20px;
         gap: 20px;
     }
 
-    .banner-container{
+    .banner-container {
         height: auto;
         flex-flow: column-reverse;
 
     }
-    .banner-content{
+
+    .banner-content {
         margin-top: 50px;
     }
 
-    .gamer-content{
+    .gamer-content {
         margin-top: 50px;
         justify-content: center;
         text-align: center;
 
     }
 
-    .gamer-content h4{
+    .gamer-content h4 {
         font-size: 1rem;
     }
 
-    .gamer-description{
+    .gamer-description {
         width: auto;
 
     }
 
-    .online-games-container h2{
-        font-size:1.5rem;
+
+
+    .online-games-container h2 {
+        font-size: 1.5rem;
     }
 
-    .online-games-container p{
-        font-size:0.75rem;
+    .online-games-container p {
+        font-size: 0.75rem;
     }
 
-    .card{
-        width: auto;
-        height: auto;
+    .card {
+        width: 80%;
+        margin: 0 auto;
     }
 
     .play-instantly-content,
@@ -114,8 +154,13 @@
     }
 
     .play-instantly-content h2,
-    .play-games-content h2{
+    .play-games-content h2 {
         font-size: 2rem;
+    }
+
+    .play-games-content p {
+        font-size: normal;
+        margin: 30px 0 60px;
     }
 
     .play-ins-img-one {
@@ -128,22 +173,65 @@
         left: 10px;
     }
 
-    .play-games-container{
+    .play-games-container {
         flex-direction: column-reverse;
     }
-    .play-games-img{
+
+    .play-games-img {
         margin: auto;
     }
 
-    .play-games-img-one{
+    .play-games-img-one {
         width: 90%;
     }
 
-    .play-games-img-two{
+    .play-games-img-two {
         width: 40%;
         right: 0px;
         bottom: -20px;
     }
 
-}
+    .careers-container {
+        height: auto;
+    }
 
+    .careers-content {
+        margin-bottom: 50px;
+    }
+
+    .footer-container {
+        padding: 20px;
+        height: auto;
+
+    }
+
+    .footer-title {
+        margin: auto;
+        padding: 20px;
+    }
+
+    .footer-items {
+        margin-top: 20px;
+    }
+
+    .footer-items,
+    .footer-icons,
+    .terms-condition {
+        flex-wrap: wrap;
+    }
+
+    .copyright-title p {
+        font-size: 16px;
+    }
+
+    .footer-icons {
+        gap: 70px;
+    }
+
+    
+
+    .copyright-title {
+        margin-top: 50px;
+    }
+
+}
