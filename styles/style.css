@@ -301,7 +301,6 @@
 
 /* play instantly design starts here */
 .play-instantly-container {
-    border: 2px solid red;
     padding: 10px;
     max-width: 1200px;
     margin: 0 auto 50px;
@@ -311,7 +310,6 @@
 }
 
 .play-instantly-content {
-    border: 2px solid blue;
     text-align: right;
     flex: 40%;
     margin-right: 50px;
@@ -338,23 +336,147 @@
     font-size: 0.85rem;
 }
 
-    .play-instantly-img {
-        border: 2px solid green;
-        flex: 50%;
-        position: relative;
-    }
+.play-instantly-img {
+    flex: 50%;
+    position: relative;
+}
 
-    .play-ins-img-one{
-        width: 80%;
-    }
+.play-ins-img-one {
+    width: 80%;
+}
 
-    .play-ins-img-two{
-        width: 40%;
-        position:absolute;
-        bottom: -40px;
-        left: -90px;
-    }
+.play-ins-img-two {
+    width: 40%;
+    position: absolute;
+    bottom: -40px;
+    left: -90px;
+}
 
-    /* play instantly design ends here */
+/* play instantly design ends here */
 
-    /*  */
+/* play games design starts here */
+.play-games-container {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.play-games-img {
+    /* margin-left: 50px; */
+    position: relative;
+}
+
+.play-games-img-one {
+    width: 70%;
+}
+
+.play-games-img-two {
+    width: 30%;
+    position: absolute;
+    right: 120px;
+    bottom: -50px;
+}
+
+.play-games-content h2 {
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.play-games-online {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-games-content p {
+    color: #534C64;
+    font-size: 0.85rem;
+}
+
+/* play games design ends here */
+
+/* careers design starts here */
+.careers {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    ;
+}
+
+.careers-container {
+    max-width: 1200px;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.careers-content {
+    flex: 50%;
+}
+
+.careers-content h3 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.careers-content p {
+    color: #FFF;
+    font-size: 0.90rem;
+    margin-bottom: 10px;
+}
+
+.job-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.job-container li{
+    list-style: none;
+}
+
+.job-category {
+    color: #FFF;
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+
+.country-category {
+    color: #FFF;
+    /* text-align: right; */
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+
+.category-btn {
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: #FFF;
+    font-size: 0.90rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF42A5;
+    border: 0;
+    margin-top: 20px;
+}
+
+.careers-img {
+    flex: 50%;
+}
+
+.careers-img img{
+    width: 120%;
+    /* height: auto; */
+}
+
+/* careers design ends here */
