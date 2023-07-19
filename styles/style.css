@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-.nav-items-hover:hover{
+.nav-items-hover:hover {
     border: 1px solid #FF42A5;
     background-color: rgba(11, 2, 35, 0.10);
     color: #FF42A5;
@@ -288,7 +288,13 @@
     height: 300px;
     padding: 5px;
     text-align: center;
+}
 
+.card img:hover {
+    border: 2px solid red;
+    border-radius: 16px;
+    
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('../images/group-29.png'), lightgray 50% / cover no-repeat; */
 }
 
 .card img {
@@ -507,13 +513,11 @@
 }
 
 /* hover style starts */
-
 .category:hover {
     border-radius: 50px;
     border: 1px solid #FF42A5;
     cursor: pointer;
     padding: 5px 8px;
-
 }
 
 .category h4:hover {
@@ -547,9 +551,7 @@ footer {
     height: 80vh;
     padding: 50px;
     color: #FFF;
-
 }
-
 
 .footer-title {
     display: flex;
@@ -558,7 +560,7 @@ footer {
     padding-left: 200px;
     width: 50%;
     margin: 50px auto 50px;
-    
+
 }
 
 .footer-title img {
@@ -584,7 +586,8 @@ footer {
 .footer-items li {
     list-style: none;
 }
-.footer-icons{
+
+.footer-icons {
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -619,6 +622,5 @@ footer {
     text-align: center;
     margin: 20px;
 }
-
 
 /* footer design ends here */

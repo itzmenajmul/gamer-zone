@@ -10,7 +10,6 @@
     }
 
     .nav-content {
-
         justify-content: center;
         margin-top: 50px;
     }
@@ -57,7 +56,6 @@
     .footer-container {
         padding: 30px;
         height: auto;
-
     }
 
     .footer-title {
@@ -74,10 +72,6 @@
     .terms-condition {
         flex-wrap: wrap;
     }
-
-
-
-
 
 }
 
@@ -108,7 +102,6 @@
     .banner-container {
         height: auto;
         flex-flow: column-reverse;
-
     }
 
     .banner-content {
@@ -119,7 +112,6 @@
         margin-top: 50px;
         justify-content: center;
         text-align: center;
-
     }
 
     .gamer-content h4 {
@@ -128,7 +120,6 @@
 
     .gamer-description {
         width: auto;
-
     }
 
 
@@ -199,17 +190,17 @@
         margin-bottom: 50px;
     }
 
-    .category{
+    .category {
         margin: 0;
         padding: 0;
         margin-right: 8px;
     }
 
-    .category img{
+    .category img {
         height: 70%;
     }
 
-    .category h4{
+    .category h4 {
         font-size: 0.65rem;
     }
 
@@ -242,10 +233,9 @@
         gap: 70px;
     }
 
-    
-
     .copyright-title {
         margin-top: 50px;
     }
+    
 
 }
